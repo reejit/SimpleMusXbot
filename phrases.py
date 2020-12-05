@@ -6,8 +6,8 @@ track_form = '''
 <b>Title:</b> <code>{}</code>
 <b>Duration:</b> <code>{}</code>'''
 
-start_phrase = '<b>Hello, stranger!</b>\n\nThis bot\'s sole purpose is to download <code>.mp3\'s</code> for you.' \
-               ' And nothing else.\nJust send performer, title or both and it will try to find needed track.'
+start_phrase = '<b>Hello, there !</b>\n\n I am a bot which can bring the best songs for you\n.' \
+               ' \nJust send Singer\'s name or song title or both and I will try to find needed track.'
 
 no_results_phrase = '<b>Sorry, but there are no results.</b>'
 
