@@ -4,13 +4,15 @@ This is a simplified version of MusXbot, that has much less abilities, but is al
 
 ## Installation
 
-This project requires a [Heroku](https://www.heroku.com/) -ish environment. You can also self-host using [Dokku](http://dokku.viewdocs.io/dokku/).
+This project requires a [Heroku](https://www.heroku.com/deploy) -ish environment. You can also self-host using [Dokku](http://dokku.viewdocs.io/dokku/).
 
 Assuming Dokku, SSH into your _VPS with DOKKU installed_ on it and:
 1. `dokku apps:create [APP-NAME]`
 2. `dokku config:set --no-restart [APP-NAME] BOT_TOKEN=[YOUR-BOT-TOKEN]`
 3. `dokku config:set --no-restart [APP-NAME] WEBHOOK_URL=[YOUR-WEBHOOK-URL]`
 4. `dokku config:set --no-restart [APP-NAME] ENV=PROD`
+
+
 
 
 From _local machine_:</br>
