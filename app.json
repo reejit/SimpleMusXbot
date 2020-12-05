@@ -1,0 +1,27 @@
+{
+    "name": "Chatbot",
+    "description": "https://github.com/reejit/Chat-Bot-ENG",
+    "keywords": [
+        "Telegram",
+        "Pyrogram",
+        "Chatbot",
+        "AI"
+    ],
+    "success_url": "https://github.com/pokurt/Chat-Bot-ENG",
+    "repository": "https://github.com/reejit/SimpleMusXbot",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Bot Token you got from @BotFather",
+            "required": true
+        }
+    }
+}
